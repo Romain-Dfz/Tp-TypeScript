@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des Contacts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Liste des Contacts</h1>
+  <button id="addContactBtn">Ajouter un contact</button>
+  <ul id="contactList"></ul>
+
+  <div id="contactModal" style="display: none;">
+    <h2 id="popup-title">Ajouter un contact</h2>
+    <input type="text" id="popup-firstName" placeholder="Prénom">
+    <input type="text" id="popup-lastName" placeholder="Nom">
+    <input type="date" id="popup-birthDate" placeholder="Date de naissance">
+    <input type="email" id="popup-email" placeholder="Email">
+    <input type="tel" id="popup-phoneNumber" placeholder="Numéro de téléphone">
+    <input type="text" id="popup-avatar" placeholder="URL de l'avatar">
+    <button id="popup-saveBtn">Ajouter</button>
+    <button id="popup-closeBtn">Fermer</button>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
