@@ -1,0 +1,5 @@
+1-Faire une classe "Pile"
+2-empiler
+3-rajoute un élément à la Pile
+4-Depiler
+5-retirer un élément à la pile 
